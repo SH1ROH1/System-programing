@@ -5,6 +5,8 @@ using namespace std;
 
 double z1_2 = 5.12 /* 1.2) */
 
+double totalCost;
+
 int main(void) {
   //1)
   
