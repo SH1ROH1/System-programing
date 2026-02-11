@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
+#include <string>
 
 using namespace std;
 
@@ -10,7 +11,7 @@ int main(void) {
 	
 	// library books
 	char text[50];
-	char text2[50];
+  string savedText;
 	while(true) {
 		scanf_s("%49s", text, (unsigned)sizeof(text));
 		if (strcmp(text, "close") == 0){
@@ -18,21 +19,25 @@ int main(void) {
 			break;	
 		} else 
 		if (strcmp(text, "print") == 0){
-			scanf_s("%49s", text2, (unsigned)sizeof(text2));
-			printf("saved text: %s\n", text2);
+		  string text2;
+			cout << "print text: ";
+      cin.ignore(); // очищаем оставшийся Enter после предыдущего ввода
+			getline(cin, text2);
+      savedText += text2 + "\n";  
+      cout << "saved text: " << endl << savedText << endl;
 		} else
 		if (strcmp(text, "delete") == 0){
-			printf("deleted text: %s\n", text2);
-			text2[0] = '\0';
+			cout << "deleted text: " << savedText << endl;
+    	savedText.clear();
 		} else
 		if (strcmp(text, "view") == 0){
-			cout << text2 << endl;
+			cout << savedText << endl;
 		}	else {
     	int a, b;
     	char op;
     	// пробуем считать выражение
     	if (sscanf(text, "%d%c%d", &a, &op, &b) == 3) {
-        int result;
+        float result;
 				switch(op) {
 					case '+':
 						result = a + b;
@@ -48,13 +53,13 @@ int main(void) {
 							printf("Division by zero!\n");
 							continue;
 						}
-						result = a / b;
+						result = float(a) / float(b);
 						break;
 					default:
 						printf("command error\n");
 						continue;
 					}
-					printf("%d\n", result);
+					printf("%.3f\n", result);
 				}
 				else {
 					printf("command error\n");
