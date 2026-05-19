@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\SHIROH1\Documents\GitHub\System-programing\Source.cpp(4,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CP.vcxproj -> C:\Users\SHIROH1\Documents\GitHub\System-programing\x64\Debug\CP.exe

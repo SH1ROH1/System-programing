@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CP", "CP.vcxproj", "{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		CP_4.cpp = CP_4.cpp
+		CP_LR1.cpp = CP_LR1.cpp
+		CP_LR1_2.cpp = CP_LR1_2.cpp
+		CP_LR2.cpp = CP_LR2.cpp
+		CP_LR2_2.cpp = CP_LR2_2.cpp
+		CP_LR3.cpp = CP_LR3.cpp
+		CP_LR3_2.cpp = CP_LR3_2.cpp
+		CP_LR4.cpp = CP_LR4.cpp
+		CP_LR5.cpp = CP_LR5.cpp
+		CP_LR5_2.cpp = CP_LR5_2.cpp
+		CP_LR7_2.cpp = CP_LR7_2.cpp
+		CP_NN2.cpp = CP_NN2.cpp
+		CP_NN3.cpp = CP_NN3.cpp
+		loadanim.cpp = loadanim.cpp
+		SP_1.cpp = SP_1.cpp
+		SP_2.cpp = SP_2.cpp
+		SP_3.cpp = SP_3.cpp
+		SP_LR7.cpp = SP_LR7.cpp
+		SP_LR7_2.cpp = SP_LR7_2.cpp
+		SP_NN1.cpp = SP_NN1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CP_LR6", "CP_LR6", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Task1.cpp = Task1.cpp
+		Task2.cpp = Task2.cpp
+		Task3.cpp = Task3.cpp
+		Tasks.cpp = Tasks.cpp
+		Tasks.h = Tasks.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CP_LR7", "CP_LR7", "{58FC1FAD-3E07-49D2-B82A-7137E85F908F}"
+	ProjectSection(SolutionItems) = preProject
+		main.cpp = main.cpp
+		Task1_7.cpp = Task1_7.cpp
+		Task2_7.cpp = Task2_7.cpp
+		Tasks7.cpp = Tasks7.cpp
+		Tasks7.h = Tasks7.h
+		Task_3_7.cpp = Task_3_7.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CP_LR10", "CP_LR10", "{46A07310-3862-48B6-A7D5-C8FD90699929}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "#1", "#1", "{33D1FF84-F688-4726-93D6-69345707E46E}"
+	ProjectSection(SolutionItems) = preProject
+		main10.cpp = main10.cpp
+		task1_10.cpp = task1_10.cpp
+		task2_10.cpp = task2_10.cpp
+		task3_10.cpp = task3_10.cpp
+		task4_10.cpp = task4_10.cpp
+		task5_10.cpp = task5_10.cpp
+		tasks10.h = tasks10.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "#2", "#2", "{68987FEC-4F4E-4382-AD5C-8342C938F14F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Debug|x64.ActiveCfg = Debug|x64
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Debug|x64.Build.0 = Debug|x64
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Debug|x86.Build.0 = Debug|Win32
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Release|x64.ActiveCfg = Release|x64
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Release|x64.Build.0 = Release|x64
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Release|x86.ActiveCfg = Release|Win32
+		{A7EC7A69-B41B-4A41-B56F-E65A73ACFFEC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+		{58FC1FAD-3E07-49D2-B82A-7137E85F908F} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+		{46A07310-3862-48B6-A7D5-C8FD90699929} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+		{33D1FF84-F688-4726-93D6-69345707E46E} = {46A07310-3862-48B6-A7D5-C8FD90699929}
+		{68987FEC-4F4E-4382-AD5C-8342C938F14F} = {46A07310-3862-48B6-A7D5-C8FD90699929}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A011EB1-3E43-4726-BBDA-7317951E2EB6}
+	EndGlobalSection
+EndGlobal
